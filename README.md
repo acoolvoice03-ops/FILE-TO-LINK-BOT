@@ -47,21 +47,22 @@ Features a beautiful web interface, premium video player, and robust admin contr
 
 ---
 
-## ⚙️ Deployment
+## 🤖 Bot Commands
 
-<div align="center">
+### **Public Commands**
+> - `/start` - Start the bot and get instructions.
+> - `/help` - View help menu.
+> - `/about` - View bot information.
+> - `/files` - List your uploaded files.
+> - `/del_files` - Manage and delete your files.
 
-### **Deploy on Heroku**
-<a href="https://heroku.com/deploy">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-
-### **Deploy on Render**
-<a href="https://render.com/deploy">
-  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
-</a>
-
-</div>
+### **Admin Commands**
+> - `/set_expiry [minutes]` - Set link expiry time (0 to disable).
+> - `/ban_user [user_id] [reason]` - Ban a user.
+> - `/unban_user [user_id]` - Unban a user.
+> - `/broadcast` - Broadcast a message to all users.
+> - `/stats` - View bot statistics.
+> - `/batch` - Create a batch link for multiple files.
 
 ---
 
