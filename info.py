@@ -38,8 +38,8 @@ PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
 
 # 🔗 __Shortlink Configuration__
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplink.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '71c39d9ada6f3560a4a4a23d746809ef34b0485e')
 
 # 💾 __Database Configuration__
 DB_URL = environ.get('DATABASE_URI', "mongodb+srv://Bossaahubdb:pmDPc44XLRB097vm@cluster0.unuj1k8.mongodb.net/?appName=Cluster0")
