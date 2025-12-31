@@ -8,7 +8,7 @@ API_HASH = environ.get('API_HASH', '25d88301e886b82826a525b7cf52e090')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8387526252:AAHBhWsCtkndhunEg13Z-dulKDJ0x7l57gY')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '8525952693').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'RexBots_Official')
 BOT_USERNAME = environ.get("BOT_USERNAME", 'RexBots_Official')
@@ -20,10 +20,10 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/RexBots_Official')
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/RexBots_Official')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003510266201'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003510266201'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003510266201'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003510266201'))
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
 
 # ✅ __Feature Toggles__
