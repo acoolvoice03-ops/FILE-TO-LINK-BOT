@@ -3,9 +3,9 @@ from Script import script
 
 # 🚀 __Bot Configuration__
 SESSION = environ.get('SESSION', 'RexBots')  # Session name
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '27806628'))
+API_HASH = environ.get('API_HASH', '25d88301e886b82826a525b7cf52e090')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8387526252:AAHBhWsCtkndhunEg13Z-dulKDJ0x7l57gY')
 
 # 👑 __Owner & Admins__
 ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
