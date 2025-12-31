@@ -24,7 +24,7 @@ BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003510266201'))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003510266201'))
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003510266201'))
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003510266201'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003398326953"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
@@ -32,7 +32,7 @@ FSUB = environ.get("FSUB", True)  # Force Subscribe
 ENABLE_LIMIT = environ.get("ENABLE_LIMIT", True)
 BATCH_VERIFY = False
 IS_SHORTLINK = False
-MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
+MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", True)
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)
 PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
