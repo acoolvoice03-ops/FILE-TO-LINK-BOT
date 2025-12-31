@@ -42,7 +42,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # 💾 __Database Configuration__
-DB_URL = environ.get('DATABASE_URI', "")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://Bossaahubdb:pmDPc44XLRB097vm@cluster0.unuj1k8.mongodb.net/?appName=Cluster0")
 DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
 
 # 📸 __Media & Images__
