@@ -5,7 +5,7 @@ from Script import script
 SESSION = environ.get('SESSION', 'RexBots')  # Session name
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8544909981:AAGLDNaAp9Fth8B77Q3qXn23FU7q31ToZHI')
 
 # 👑 __Owner & Admins__
 ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
